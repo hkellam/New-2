@@ -28,7 +28,7 @@ model = "gpt-4-turbo"
 instructions_data = st.secrets["INSTRUCTIONS"]
 
 #  == Hardcoded ids to be used once the first code run is done and the assistant was created
-assis_id = "asst_pZOBXOqtGYnQwd8LWiak5iRn" 
+assis_id = "asst_QefEgvCxyqDItDSFHQJbeO7M" 
 thread_id = "thread_lClMjq57Qa4Dt2bzptzTmhAq"
 
 if "start_chat" not in st.session_state:
@@ -47,7 +47,7 @@ if st.button("Start Chat"):
 
 st.title("Feedback Friend")
 st.image("Jay Chatbot Image.jpg")
-st.write("Here to help with feedback for AO3320?")
+st.write("I'm here to help with feedback for AO3320. Please ask me for help and then enter your name.")
 # st.write("Ask me things like:")
 # st.write(":blue[**Explain Module 1 Quiz 2 question 3**] OR :blue[**Help solve module 3 Quiz 1 question 3**] OR :blue[**copy-paste the question after clicking Start Chat**]")
 st.write(":blue[**Click Start Chat and copy-paste or type the question in**]")
