@@ -45,8 +45,8 @@ if st.button("Start Chat"):
     thread = client.beta.threads.create()
     st.session_state.thread_id = thread.id
 
-st.title("Feedback Friend")
-st.image("Jay Chatbot Image.jpg")
+st.title("P-I-E Model Chatbot")
+st.image("PIE Model Graphic.png")
 st.write("I'm here to help with using the P-I-E Model for online learning. Please ask me for help and then enter your name.")
 # st.write("Ask me things like:")
 # st.write(":blue[**Explain Module 1 Quiz 2 question 3**] OR :blue[**Help solve module 3 Quiz 1 question 3**] OR :blue[**copy-paste the question after clicking Start Chat**]")
