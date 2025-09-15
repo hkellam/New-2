@@ -36,7 +36,7 @@ if "start_chat" not in st.session_state:
 if "thread_id" not in st.session_state:
     st.session_state.thread_id = None
 
-st.set_page_config(page_title="Jay ChatBot", page_icon=":books:")
+st.set_page_config(page_title="P-I-E Model ChatBot", page_icon=":books:")
 #st.set_page_config(page_title="Study Buddy", page_icon=":books:")
 
 
@@ -47,7 +47,7 @@ if st.button("Start Chat"):
 
 st.title("Feedback Friend")
 st.image("Jay Chatbot Image.jpg")
-st.write("I'm here to help with feedback for AO3320. Please ask me for help and then enter your name.")
+st.write("I'm here to help with using the P-I-E Model for online learning. Please ask me for help and then enter your name.")
 # st.write("Ask me things like:")
 # st.write(":blue[**Explain Module 1 Quiz 2 question 3**] OR :blue[**Help solve module 3 Quiz 1 question 3**] OR :blue[**copy-paste the question after clicking Start Chat**]")
 st.write(":blue[**Click Start Chat and copy-paste or type the question in**]")
